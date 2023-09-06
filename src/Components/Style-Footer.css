@@ -1,0 +1,35 @@
+.footer-container
+{
+  background-color:rgba(70, 66, 100, 1);
+}
+
+.footer-logo{
+    height:30px;
+    width:30px;
+}
+
+.share-btn
+{
+  border-right:3px solid white;
+}
+
+.difference-line
+{
+  /*White Line below icons*/
+  border-bottom:3px solid white;
+}
+
+.data-text
+{
+  color:rgba(148, 223, 255, 1);
+}
+
+.data-text:hover
+{
+  color:rgba(148,223,255,0.5);
+}
+
+.pointer-cursor:hover
+{
+  cursor:pointer;
+}

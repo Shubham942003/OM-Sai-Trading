@@ -1,0 +1,71 @@
+.form-bg
+  {
+    background-image:url('../../public/images/CirclesBg.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+  }
+
+  .login-underline
+  {
+    text-decoration:underline !important;
+    color:black !important;
+  }
+
+  .text-fade
+  {
+    color:rgb(158, 157, 157);
+  }
+
+  .forgot-password:hover
+  {
+     color:rgb(102, 30, 171);
+     cursor:pointer;
+  }
+
+  .default-link-removed
+{
+  color:grey;
+  text-decoration:none;
+}
+
+  .login-signup-button
+  {
+    background-color:rgba(117, 207, 193, 1);
+  }
+
+  .login-signup-button:hover
+  {
+    border:2px solid black;
+    color:black !important;
+  }
+
+  .form-inner-container
+  {
+    background-color:rgba(154, 220, 209, 0.35);
+  }
+
+  .coffee-img
+  {
+    height: 50px;
+  }
+
+  .laptop-img
+  {
+    height:220px;
+  }
+
+  .plant-pot-img
+  {
+   height:50px;
+  }
+
+  .blue-text
+  {
+    color:blue;
+  }
+
+  .blue-text:hover
+  {
+    color:purple;
+    cursor:pointer; 
+  }

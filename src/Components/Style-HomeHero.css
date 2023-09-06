@@ -1,0 +1,121 @@
+.hero-background
+{
+    background-color:rgb(214, 225, 247);
+}
+
+.tag
+{
+    height:90px;
+    width:90px;
+}
+
+.tick
+{
+    height:30px;
+    width:30px;
+}
+
+.table-text
+{
+    text-align:left;
+}
+
+.table-bordered-vertical th,
+    .table-bordered-vertical td {
+      border-right: 1px solid rgb(27, 62, 177);
+      border-left: 1px solid rgb(27, 62, 177);
+      border-bottom:1px solid rgb(27, 62, 177);
+    }
+
+    .table-heading
+    {
+        border-top:1px solid rgb(27, 62, 177);
+        border-left:1px solid rgb(27,62,177);
+        border-right:1px solid rgb(27, 62, 177);
+        background-color:rgb(210, 237, 155);
+        color:rgb(103, 25, 175);
+    }
+
+    .table th{
+        color:rgb(57, 152, 28);
+    }
+
+    .why-us-content
+    {
+        font-size:1.5rem;
+    }
+    .handShaking-img
+    {
+      height:280px;
+      width:100%;
+    }
+
+     .explore-text
+     {
+       color:rgba(23, 131, 191, 1);
+     }
+
+    .brand-img
+    {
+        height:65px;
+    }
+
+    /*-------Small Carousel--------*/
+
+    .ProductRange-img
+    {
+     height:450px !important;
+      /* max-height:100%; */
+      width:512px !important;
+    }
+
+    .gif
+    {
+        height:100px;
+        width:100px;
+    }
+
+
+     .text-box
+     {
+        height:100px;
+     }
+
+     .form-name
+     {
+       width: 100px;;
+     }
+
+
+     /*Ellips Css Style*/
+
+      .curvy-bg
+      {
+        background-image:url("../../public/images/ellipse.svg");
+        height:auto;
+        background-size:cover;
+        background-repeat:no-repeat;
+      }
+
+      .range-bg
+      {
+        background-color:rgba(255, 255, 255, 0.41);
+      }
+
+      .ocean-bg
+      {
+        background-image:url("../../public/images/left\ wave.svg");
+        background-size:cover;
+        height:auto;
+      }
+
+      .why-card
+      {
+        background-color:rgba(245,245,245,0.5);
+      }
+
+      .logo-btn
+      {
+        height:30px;
+        width:30px;
+      }

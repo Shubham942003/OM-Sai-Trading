@@ -1,0 +1,29 @@
+.Cutted-price
+{
+  text-decoration:line-through;
+}
+
+.text-bold
+{
+  font-weight:400;
+  color:grey;
+}
+
+.product-card-container
+{
+  box-shadow: 1px 3px 5px grey;
+}
+
+.cart-button
+{
+  background-color:rgb(85,129,254);
+  color:white;
+}
+
+.cart-button:hover
+{
+  background-color: rgb(255, 255, 255) !important;
+  color:rgb(85,129,254) !important;
+  border: 3px solid rgb(85,129,254) !important;
+  font-weight:bold;
+}
