@@ -4,7 +4,6 @@ import Header from "./Header.js";
 import Footer from "./Footer.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import axios from "axios";
 
 const ContactForm2 = () => {
 
@@ -13,18 +12,16 @@ const ContactForm2 = () => {
   const [phonenumber, setPhonenumber] = useState("");
   const [name,setName] = useState("");
   
-  const handleContact= async(e) =>
-  { 
+  const handleContact= (e) =>
+  {
     e.preventDefault();
     alert("Form Submitted");
-    const response = await axios.post("/adduser",{query,email,phonenumber,name});
-    console.log(response);
+    console.log("\n Query: "+query+"\n email: "+email+"\n phonenumber: "+phonenumber+"\n name: "+name);
     setQuery("");
     setEmail("");
     setPhonenumber("");
     setName("");
   } 
-
 
   AOS.init();
     return (
@@ -69,6 +66,11 @@ const ContactForm2 = () => {
                     </div>
                     <div className="col-md-4 my-4">
                       <button className="btn send-btn px-5 text-white py-2" type="submit"><strong>Send</strong></button>
+                    </div>
+                    <div class="mb-3">
+                      <label for="fileInput" class="form-label">Choose a file:</label>
+                      <input type="file" class="form-control mb-3" id="fileInput" name="file"/>
+                      <button type="submit" class="btn btn-primary">Upload</button>
                     </div>
                   </div>
                 </form>
