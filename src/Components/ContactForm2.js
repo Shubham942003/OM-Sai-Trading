@@ -4,6 +4,7 @@ import Header from "./Header.js";
 import Footer from "./Footer.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import axios from "axios";
 
 const ContactForm2 = () => {
   const [query, setQuery] = useState("");
@@ -24,10 +25,24 @@ const ContactForm2 = () => {
         "\n name: " +
         name
     );
-    setQuery("");
-    setEmail("");
-    setPhonenumber("");
-    setName("");
+    const fetchUser = async () => {
+      const response = await axios.post("/mail", {
+        name,
+        email,
+        query,
+        phonenumber,
+      
+        
+      });
+      setQuery("");
+      setEmail("");
+      setPhonenumber("");
+      setName("");
+      
+      console.log(response);
+    }
+   
+    fetchUser();
   };
 
   AOS.init();

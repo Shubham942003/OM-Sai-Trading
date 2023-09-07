@@ -2,7 +2,7 @@ import "../Components/Style-ContactForm.css";
 import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import axios from "axios";
 
   /*Contact Us Form*/
 
@@ -26,10 +26,23 @@ const ContactForm = () => {
         "\n name: " +
         name
     );
-    setQuery("");
-    setEmail("");
-    setPhonenumber("");
-    setName("");
+    
+    const fetchUser = async () => {
+      const response = await axios.post("/mail", {
+        name,
+        email,
+        query,
+        phonenumber,
+        
+      });
+      setQuery("");
+      setEmail("");
+      setPhonenumber("");
+      setName("");
+      
+      console.log(response);
+    };
+    fetchUser();
   };
 
   AOS.init();
