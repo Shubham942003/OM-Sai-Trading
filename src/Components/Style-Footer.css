@@ -3,9 +3,9 @@
   background-color:rgba(70, 66, 100, 1);
 }
 
-.footer-logo{
-    height:30px;
-    width:30px;
+.footer-logo:hover
+{
+  cursor:pointer;
 }
 
 .share-btn
