@@ -1,26 +1,20 @@
-.contact-container
-{
-   background-color:rgba(164, 205, 126, 1);
+.contact-container {
+  background-color: rgba(164, 205, 126, 1);
 }
-.contact-form-bg
-{
-   background-color:rgba(255, 255, 255, 0.3);
+.contact-form-bg {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.contact-textcolor
-{
-   color:rgba(240, 144, 0, 1);
+.contact-textcolor {
+  color: rgba(240, 144, 0, 1);
 }
 
+.send-btn {
+  background-color: rgba(240, 144, 0, 1);
+}
 
-.send-btn
-     {
-        background-color:rgba(240, 144, 0, 1);
-     }
-
-     .send-btn:hover
-     {
-        color: black !important;
-        background: rgba(164, 205, 126, 0.3) !important;
-        border:1px solid black !important;
-     }
+.send-btn:hover {
+  color: black !important;
+  background: rgba(164, 205, 126, 0.3) !important;
+  border: 1px solid black !important;
+}

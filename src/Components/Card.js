@@ -5,10 +5,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Card = (props) => {
-  const { image, title, price} = props;
   AOS.init();
   return (
-    <div className="mt-2 mb-4 card-container px-4" data-aos="flip-left" data-aos-duration="1000">
+    <div
+      className="mt-2 mb-4 card-container px-4"
+      data-aos="flip-left"
+      data-aos-duration="1000"
+    >
       <div className="card-bg">
         <div>
           <img src={props.image} className="img-fluid border" alt="" />
@@ -24,9 +27,11 @@ const Card = (props) => {
           </p>
         </div>
         <div className="d-flex justify-content-center mb-4">
-        <Link to="/categories"><button className="btn px-5 py-2 mb-3 card-btn text-white">
-            <strong>See More</strong>
-          </button></Link>
+          <Link to="/categories">
+            <button className="btn px-5 py-2 mb-3 card-btn text-white">
+              <strong>See More</strong>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

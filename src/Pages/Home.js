@@ -5,19 +5,17 @@ import Footer from "../Components/Footer";
 import ContactForm from "../Components/ContactForm";
 import CardSlider from "../Components/CardSlider";
 
-const Home = () =>
-{
-    return(
-        <>
-          <Header/>
-          <HomeCarousel/>
-          <HomeHero/>
-          <CardSlider/>
-         <ContactForm/>
-          <Footer/>
-        </>
-    );
-}
-
+const Home = () => {
+  return (
+    <>
+      <Header />
+      <HomeCarousel />
+      <HomeHero />
+      <CardSlider />
+      <ContactForm />
+      <Footer />
+    </>
+  );
+};
 
 export default Home;

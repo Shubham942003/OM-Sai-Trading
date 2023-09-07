@@ -1,41 +1,36 @@
-.nav-container
-{
-  border-bottom:1px solid grey;
+.nav-container {
+  border-bottom: 1px solid grey;
 }
 
-.link{
-    
-    color:rgb(15, 98, 125) !important;
-    font-size:18px !important;
-    
+.link {
+  color: rgb(15, 98, 125) !important;
+  font-size: 18px !important;
 }
 
-.link:hover{
-    text-decoration-line:underline;
-    font-weight:bold;
-    color:rgb(11, 82, 106) !important;
+.link:hover {
+  text-decoration-line: underline;
+  font-weight: bold;
+  color: rgb(11, 82, 106) !important;
 }
 
-
-.company-logo{
-    height:50px;
-    width:65px;
-    border-radius:10px;
-} 
-
-.cart-logo{
-    height:35px;
-    width:35px;
+.company-logo {
+  height: 50px;
+  width: 65px;
+  border-radius: 10px;
 }
 
-.login-btn
-{
-    background-color:rgba(243, 247, 255, 1) !important;
-    border:2px dashed black !important;
+.cart-logo {
+  height: 35px;
+  width: 35px;
 }
 
-.login-btn:hover{
-    background-color:rgba(70, 66, 100, 1) !important;
-    border:2px solid grey !important;
-    color:white !important;
+.login-btn {
+  background-color: rgba(243, 247, 255, 1) !important;
+  border: 2px dashed black !important;
+}
+
+.login-btn:hover {
+  background-color: rgba(70, 66, 100, 1) !important;
+  border: 2px solid grey !important;
+  color: white !important;
 }
