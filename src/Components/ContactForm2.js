@@ -38,7 +38,6 @@ const ContactForm2 = () => {
       setEmail("");
       setPhonenumber("");
       setName("");
-      
       console.log(response);
     }
    
