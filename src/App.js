@@ -9,6 +9,7 @@ import ContactForm2 from "./Components/ContactForm2";
 import Categories from "./Pages/Caterogy";
 import AddCategorie from "./Pages/AddCategory";
 import Addproduct from "./Pages/Addproduct";
+import ContactForm from "./Components/ContactForm";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route exact path="/contactus" element={<ContactForm2 />} />
           <Route path="/product/:categoryName" element={<Product />} />
           <Route exact path="/admin/Categorie/add" element={<AddCategorie />} />
-
+          <Route exact path="/interested" element={<ContactForm/>}/>
           <Route exact path="/product/add" element={<Addproduct />} />
 
           <Route path="/*" element={<Error />} />

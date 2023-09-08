@@ -3,7 +3,7 @@ import Footer from "../Components/Footer.js";
 import "../Components/Style-Product.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 const Products = () => {
   const [Product, setProducts] = useState(null);
   const url = window.location.href;
@@ -54,9 +54,15 @@ const Products = () => {
                     </div>
                     <div className="d-flex justify-content-between">
                       <h4 className=" pt-md-3">Approx Price:{Product.price}</h4>
-                      <button className="btn my-md-3 cart-button my-3 px-5 py-2">
+                      <Link
+                  to="/interested"
+                >
+<button className="btn my-md-3 cart-button my-3 px-5 py-2" onClick={console.log("done")}>
                         <strong>Order</strong>
                       </button>
+                </Link>
+                      
+                    
                     </div>
                   </div>
                 </div>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
-
+import { Link } from "react-router-dom";
   /*Contact Us Form*/
 
 
@@ -15,7 +15,9 @@ const ContactForm = () => {
 
   const handleContact = (e) => {
     e.preventDefault();
+    
     alert("Form Submitted");
+
     console.log(
       "\n Query: " +
         query +
@@ -124,6 +126,7 @@ const ContactForm = () => {
                       <button
                         className="btn send-btn px-5 text-white py-2"
                         type="submit"
+                       
                       >
                         <strong>Send</strong>
                       </button>
