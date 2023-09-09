@@ -23,7 +23,7 @@ const Products = () => {
   return (
     <>
       <Header />
-      <h1>{lastPart}</h1>
+    
       {Product &&
         Product?.data.map((Product) => (
           <div className="container my-4">

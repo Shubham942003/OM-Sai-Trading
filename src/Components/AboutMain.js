@@ -75,9 +75,7 @@ const AboutMain = () => {
             <li className="lead">
               <strong>Switchgears</strong>
             </li>
-            <li className="lead">
-              <strong>Stockist</strong>
-            </li>
+           
             <li className="lead">
               <strong>Wires & Cables</strong>
             </li>

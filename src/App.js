@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/product" element={<Product />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/contactus" element={<ContactForm2 />} />
-          <Route path="/product/:categoryName" element={<Product />} />
+          <Route path="/product/category/batch/:categoryName" element={<Product />} />
           <Route exact path="/admin/Categorie/add" element={<AddCategorie />} />
           <Route exact path="/interested" element={<ContactForm/>}/>
           <Route exact path="/product/add" element={<Addproduct />} />

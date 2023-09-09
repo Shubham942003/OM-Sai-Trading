@@ -48,7 +48,7 @@ const Categories = () => {
                       <h3 className=" mt-md-1">
                         Price Range:{Categories.averageRate}
                       </h3>
-                      <Link to={`/product/${Categories.batch}`}>
+                      <Link to={`/product/category/batch/${Categories.batch}`}>
                         <button className="btn cart-button px-5 py-2 ">
                           <strong>
                             <h5>See All</h5>
