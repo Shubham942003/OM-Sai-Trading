@@ -6,6 +6,7 @@ import "../Components/Style-Product.css";
 import axios from "axios";
 import { useState } from "react";
 
+
 const Categories = () => {
   const [Categories, setCategoies] = useState("");
 
@@ -17,17 +18,21 @@ const Categories = () => {
     fetchdata();
   }, []);
 
+
+
   return (
     <>
       <Header />
 
       {Categories &&
         Categories?.data.map((Categories) => (
-          <div className="container my-5">
+          <div className="container my-5"
+         >
             <div className="row d-flex justify-content-center">
               <div className="col-12 product-card-container border ">
                 <div className="row my-3 mx-3">
-                  <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+                  <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center"
+                   >
                     <img
                       src={Categories.image}
                       className="img-fluid"
