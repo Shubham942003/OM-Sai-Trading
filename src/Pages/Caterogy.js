@@ -45,13 +45,17 @@ const Categories = () => {
                     </div>
                     <div className="mb-md-5">
                       <p className="lead mt-md-4 ms-md-auto ms-2 pb-md-5">
-                        <strong>{Categories.detail} </strong>
+                        <strong>{Categories.detail}
+                        <br/>types name 
+                      </strong>
                       </p>
                     </div>
+                 
+                    
 
                     <div className="d-flex justify-content-end mt-lg-5 pt-lg-5 d-flex justify-content-between">
-                      <h3 className=" mt-md-1">
-                        Price Range:{Categories.averageRate}
+                      <h3 >
+                        brand
                       </h3>
                       <Link to={`/product/category/batch/${Categories.batch}`}>
                         <button className="btn cart-button px-5 py-2 ">

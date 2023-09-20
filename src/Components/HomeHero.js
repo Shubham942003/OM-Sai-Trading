@@ -60,6 +60,8 @@ const HomeHero = () => {
             <img src="images/tick.png" className="tick me-3 ms-md-5" alt="" />
             <p className="lead">Industrial units</p>
           </div>
+          
+        
 
           <div className="col-md-3 col-sm-6 col-6 ps-md-5 d-flex justify-content-start">
             <img src="images/tick.png" className="tick me-3 ms-md-5" alt="" />

@@ -15,7 +15,7 @@ const Signup = () => {
     e.preventDefault();
     alert("Form Submitted");
     const respone = axios
-      .post("/sigin", { name, email, password })
+      .post("/signup", { name, email, password })
       .then((respone) => console.log(respone))
       .catch((err) => console.log(err));
 
